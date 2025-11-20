@@ -1,5 +1,5 @@
 export const postsData = {
-  paris: {
+  'paris': {
     title: "París",
     comidas: {
       crepes: {
@@ -60,7 +60,7 @@ export const postsData = {
       }
     }
   },
-  amsterdam: {
+  'amsterdam': {
     title: "Ámsterdam",
     comidas: {
       stroopwafels: {
@@ -109,7 +109,7 @@ export const postsData = {
       }
     }
   },
-  berlin: {
+  'berlin': {
     title: "Berlín",
     comidas: {
       currywurst: {

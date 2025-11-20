@@ -1,5 +1,3 @@
-import { remark } from 'remark';
-import html from 'remark-html';
 import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
@@ -49,20 +47,8 @@ export function getPostData(slug) {
     const matterResult = matter(fileContents);
     console.log('📋 Frontmatter:', matterResult.data);
 
-    let contentHtml = '';
-    if (matterResult.content && matterResult.content.trim()) {
-      const processedContent = remark()
-        .use(html)
-        .processSync(matterResult.content.trim());
-      contentHtml = processedContent.toString();
-      console.log('✅ Markdown procesado correctamente');
-    } else {
-      console.warn('⚠️ Contenido markdown vacío');
-    }
-
     const result = {
       slug,
-      contentHtml,
       ...matterResult.data,
     };
     
