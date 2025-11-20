@@ -11,13 +11,14 @@ Berlín es una ciudad llena de historia, cultura y vida urbana moderna. Pasear p
 
 ## Sitios que no puedes perderte
 
-### Puerta de Brandeburgo
-El símbolo más emblemático de Berlín y punto de encuentro histórico de la ciudad.
 
-### Muro de Berlín
+- Puerta de Brandeburgo
+  - El símbolo más emblemático de Berlín y punto de encuentro histórico de la ciudad.
+
+- Muro de Berlín
 Recorre los restos del muro y aprende sobre la historia de la ciudad dividida.
 
-### Isla de los Museos
+- Isla de los Museos
 Un conjunto de cinco museos de gran relevancia cultural e histórica en el corazón de Berlín.
 
 ### Reichstag
