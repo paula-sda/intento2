@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/components/FoodSelector.jsx", "app/components/Sitios.jsx"  ],
   "exclude": ["node_modules"]
 }

@@ -30,9 +30,9 @@ export default function Header() {
           <li>
             <a href="#contenido">Blogs ▾</a>
             <ul className="submenu">
-            <li><Link href="/posts/post1">París en 3 días</Link></li>
-  <li><Link href="/posts/post2">Una semana en Amsterdam</Link></li>
-  <li><Link href="/posts/post3">Visitamos Berlín</Link></li>
+            <li><Link href="/posts/paris">París en 3 días</Link></li>
+  <li><Link href="/posts/amsterdam">Una semana en Amsterdam</Link></li>
+  <li><Link href="/posts/berlin">Visitamos Berlín</Link></li>
             </ul>
           </li>
           <li><Link href="/about" onClick={closeMenu}>Sobre Nosotros</Link></li>

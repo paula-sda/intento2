@@ -6,60 +6,64 @@ export const postsData = {
         img: "/imagenes/blog1/crepes.jpg",
         alt: "Crepes",
         titulo: "Crêpes",
-        desc: "Finas tortitas que se pueden disfrutar dulces o saladas, un clásico de la comida callejera parisina. Perfectas en cualquier crepería de Montmartre."
+        desc: "Finas tortitas que se pueden disfrutar dulces o saladas..."
       },
       croissant: {
         img: "/imagenes/blog1/croissant.jpg",
         alt: "Croissant",
         titulo: "Croissant",
-        desc: "El croissant es un símbolo de la panadería francesa. Recomendamos probarlo en cualquier boulangerie tradicional cerca de Montparnasse o Le Marais."
+        desc: "Un símbolo de la panadería francesa..."
       },
       baguette: {
         img: "/imagenes/blog1/baguette.jpeg",
         alt: "Baguette",
         titulo: "Baguette",
-        desc: "La baguette fresca es indispensable. Se disfruta mejor con queso y vino en un picnic en los Campos de Marte frente a la Torre Eiffel."
+        desc: "Perfecta para un picnic frente a la Torre Eiffel."
       },
       escargots: {
         img: "/imagenes/blog1/escargots.jpg",
         alt: "Escargots",
         titulo: "Escargots",
-        desc: "Caracoles preparados con mantequilla, ajo y perejil, un plato clásico de la gastronomía parisina. Ideal en restaurantes tradicionales cerca de Saint-Germain."
+        desc: "Caracoles tradicionales con mantequilla, ajo y perejil."
       },
       ratatouille: {
         img: "/imagenes/blog1/ratatuille.jpg",
         alt: "Ratatouille",
         titulo: "Ratatouille",
-        desc: "Guiso de verduras provenzal, colorido y sabroso. Una opción saludable en bistrós del Barrio Latino."
+        desc: "Guiso de verduras provenzal, colorido y saludable."
       },
     },
-    lugares: {
-      torreEiffel: {
-        img: "/imagenes/blog1/torre eiffel.jpeg",
-        alt: "Torre Eiffel",
-        titulo: "Torre Eiffel",
-        desc: "El ícono indiscutible de París, ideal para visitar al atardecer."
-      },
-      louvre: {
-        img: "/imagenes/blog1/louvre.jpeg",
-        alt: "Museo del Louvre",
-        titulo: "Museo del Louvre",
-        desc: "Hogar de la Mona Lisa y miles de obras de arte."
-      },
-      notreDame: {
-        img: "/imagenes/blog1/notre dame.jpeg",
-        alt: "Catedral de Notre Dame",
-        titulo: "Catedral de Notre Dame",
-        desc: "Una joya del arte gótico, actualmente en restauración."
-      },
-      montmartre: {
-        img: "/imagenes/blog1/montmartre.jpeg",
-        alt: "Barrio de Montmartre",
-        titulo: "Montmartre",
-        desc: "El barrio bohemio de París, con sus artistas y el Sacré-Cœur."
-      }
-    }
-  },
+  
+    // 👉 **Aquí la galería**
+    galeria: [
+      { img: "/imagenes/blog1/img1.webp", alt: "Torre Eiffel" },
+      { img: "/imagenes/blog1/img2.webp", alt: "Museo del Louvre" },
+      { img: "/imagenes/blog1/img3.jpg", alt: "Notre-Dame" },
+      { img: "/imagenes/blog1/img4.webp", alt: "Vista nocturna de París" }
+    ],
+  sitios: [
+    {
+      titulo: "Torre Eiffel",
+      desc: "El icono más famoso de París. Visítala de día y de noche para disfrutar vistas espectaculares.",
+      img: "/imagenes/blog1/img1.webp",
+    },
+    {
+      titulo: "Museo del Louvre",
+      desc: "Casa de la Mona Lisa y muchas obras maestras. Reserva tus entradas con antelación.",
+      img: "/imagenes/blog1/img2.webp",
+    },
+    {
+      titulo: "Notre-Dame",
+      desc: "Impresionante arquitectura gótica y una visita obligada en el corazón de París.",
+      img: "/imagenes/blog1/img3.jpg",
+    },
+    {
+      titulo: "Montmartre",
+      desc: "Calles bohemias y la basílica del Sacré-Cœur con vistas panorámicas de la ciudad.",
+      img: "/imagenes/blog1/montmartre.jpeg",
+    },
+  ]
+},
   'amsterdam': {
     title: "Ámsterdam",
     comidas: {
@@ -67,47 +71,63 @@ export const postsData = {
         img: "/imagenes/blog2/stroopwafels.jpg",
         alt: "Stroopwafels",
         titulo: "Stroopwafels",
-        desc: "Galletas rellenas de caramelo, ideales con un café caliente."
+        desc: "Galletas rellenas de caramelo..."
       },
       arenque: {
         img: "/imagenes/blog2/arenque.webp",
         alt: "Arenque crudo",
         titulo: "Arenque Crudo",
-        desc: "Una delicia local que se come con cebolla y pepinillos."
+        desc: "Se come con cebolla y pepinillos."
       },
       bitterballen: {
         img: "/imagenes/blog2/bitterballen.webp",
         alt: "Bitterballen",
         titulo: "Bitterballen",
-        desc: "Croquetas de carne servidas con mostaza, perfectas para picar."
+        desc: "Bolitas crujientes de carne, típicas en bares."
       },
       poffertjes: {
         img: "/imagenes/blog2/poffertjes.jpeg",
         alt: "Poffertjes",
         titulo: "Poffertjes",
-        desc: "Pequeños panqueques esponjosos, a menudo con mantequilla y azúcar glas."
+        desc: "Mini panqueques esponjosos."
       },
       kaas: {
         img: "/imagenes/blog2/kaas.webp",
         alt: "Queso Holandés",
         titulo: "Queso Holandés",
-        desc: "No te puedes ir sin probar los famosos quesos Gouda y Edam."
+        desc: "Famosos quesos Gouda y Edam."
       }
     },
-    lugares: {
-      rijksmuseum: {
-        img: "/imagenes/blog2/rijksmuseum.jpg",
-        alt: "Rijksmuseum",
-        titulo: "Rijksmuseum",
-        desc: "El museo nacional de los Países Bajos, con obras de Rembrandt y Vermeer."
-      },
-      vanGogh: {
-        img: "/imagenes/blog2/museovan.jpg",
-        alt: "Museo Van Gogh",
+    
+    // 👉 **Galería Ámsterdam**
+    galeria: [
+      { img: "/imagenes/blog2/img1.webp", alt: "Canales de Ámsterdam" },
+      { img: "/imagenes/blog2/img2.webp", alt: "Museo Van Gogh" },
+      { img: "/imagenes/blog2/img3.jpeg", alt: "Casa de Anne Frank" },
+      { img: "/imagenes/blog2/img4.webp", alt: "Barrio Jordaan" }
+    ],
+    sitios: [
+      {
         titulo: "Museo Van Gogh",
-        desc: "La mayor colección de obras del famoso pintor neerlandés."
-      }
-    }
+        desc: "Explora la obra del famoso pintor y sumérgete en la historia del arte neerlandés.",
+        img: "/imagenes/blog2/museovan.jpg",
+      },
+      {
+        titulo: "Rijksmuseum",
+        desc: "Un museo emblemático con colecciones de maestros holandeses y exposiciones fascinantes.",
+        img: "/imagenes/blog2/rijksmuseum.jpg",
+      },
+      {
+        titulo: "Casa de Anne Frank",
+        desc: "Visita la historia conmovedora de Anne Frank y su diario durante la Segunda Guerra Mundial.",
+        img: "/imagenes/blog2/img3.jpg",
+      },
+      {
+        titulo: "Barrio Jordaan",
+        desc: "Calles pintorescas, cafés acogedores y tiendas boutique en uno de los barrios más encantadores de Ámsterdam.",
+        img: "/imagenes/blog2/img4.jpeg",
+      },
+    ]
   },
   'berlin': {
     title: "Berlín",
@@ -116,27 +136,58 @@ export const postsData = {
         img: "/imagenes/blog3/curry.jpeg",
         alt: "Currywurst",
         titulo: "Currywurst",
-        desc: "Salchicha con salsa de curry, el plato callejero por excelencia de Berlín."
+        desc: "La salchicha más famosa de Berlín."
       },
       schnitzel: {
         img: "/imagenes/blog3/schnitzel.jpeg",
         alt: "Schnitzel",
         titulo: "Schnitzel",
-        desc: "Filete empanado, un clásico de la cocina alemana y austriaca."
+        desc: "Filete empanado clásico."
       },
       pretzel: {
         img: "/imagenes/blog3/pretzel.webp",
         alt: "Pretzel",
         titulo: "Pretzel",
-        desc: "El lazo de pan salado que encontrarás en cada esquina."
+        desc: "Crujiente y delicioso."
       },
       berliner: {
         img: "/imagenes/blog3/berliner.webp",
-        alt: "Berliner Pfannkuchen",
+        alt: "Berliner",
         titulo: "Berliner",
-        desc: "Un dulce similar a una dona, relleno de mermelada."
+        desc: "Dona rellena de mermelada."
       }
     },
-    lugares: {}
+
+    // 👉 **Galería Berlín**
+    galeria: [
+      { img: "/imagenes/blog3/img1.webp", alt: "Puerta de Brandeburgo" },
+      { img: "/imagenes/blog3/img2.jpg", alt: "Muro de Berlín" },
+      { img: "/imagenes/blog3/img3.jpg", alt: "Isla de los Museos" },
+      { img: "/imagenes/blog3/img4.webp", alt: "Reichstag" }
+    ],
+    sitios: [
+      {
+        titulo: "Puerta de Brandeburgo",
+        desc: "El símbolo más emblemático de Berlín y punto de encuentro histórico de la ciudad.",
+        img: "/imagenes/blog3/img1.webp",
+      },
+      {
+        titulo: "Muro de Berlín",
+        desc: "Recorre los restos del muro y aprende sobre la historia de la ciudad dividida.",
+        img: "/imagenes/blog3/img2.jpg",
+      },
+      {
+        titulo: "Isla de los Museos",
+        desc: "Un conjunto de cinco museos de gran relevancia cultural e histórica en el corazón de Berlín.",
+        img: "/imagenes/blog3/img3.jpg",
+      },
+      {
+        titulo: "Reichstag",
+        desc: "Edificio del parlamento alemán con una impresionante cúpula de cristal que se puede visitar.",
+        img: "/imagenes/blog3/img4.webp",
+      },
+    ]
+
   }
 };
+

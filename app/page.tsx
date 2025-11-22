@@ -39,7 +39,7 @@ export default function Home() {
                 Explora los rincones más impresionantes y come como un auténtico
                 parisino.
               </p>
-              <Link href="/posts/post1" className="btn">Leer más</Link>
+              <Link href="/posts/paris" className="btn">Leer más</Link>
               </div>
           </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
                 Explora los canales de Amsterdam, visita museos y disfruta de su
                 vibrante vida urbana.
               </p>
-              <Link href="/posts/post2" className="btn">Leer más</Link>
+              <Link href="/posts/amsterdam" className="btn">Leer más</Link>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ export default function Home() {
                 Berlín te espera con sus monumentos históricos, arte callejero y
                 una vida nocturna inolvidable.
               </p>
-              <Link href="/posts/post3" className="btn">Leer más</Link>
+              <Link href="/posts/berlin" className="btn">Leer más</Link>
             </div>
           </div>
         </div>
